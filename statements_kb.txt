@@ -3,10 +3,13 @@ fact: (isa pyramid block)
 fact: (isa sphere block)
 
 fact: (isa box container)
+fact: (isa box container)
 
 fact: (inst bigbox box)
 fact: (size bigbox big)
 fact: (color bigbox red)
+
+rule: ((hero ?a)) -> (wielding ?a Weapon)
 
 fact: (inst littlebox box)
 fact: (size littlebox small)
